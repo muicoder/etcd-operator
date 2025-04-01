@@ -4,8 +4,7 @@ kind: ClusterRole
 metadata:
   labels:
     app.kubernetes.io/name: etcd-operator
-    app.kubernetes.io/managed-by: kustomize
-  name: etcdcluster-editor-role
+  name: operator-etcdcluster-editor-role
 rules:
 - apiGroups:
   - operator.etcd.io
