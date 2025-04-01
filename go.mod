@@ -7,10 +7,10 @@ toolchain go1.24.3
 require (
 	github.com/go-logr/logr v1.4.2
 	github.com/stretchr/testify v1.10.0
-	go.etcd.io/etcd/api/v3 v3.5.21
-	go.etcd.io/etcd/client/pkg/v3 v3.5.21
-	go.etcd.io/etcd/client/v3 v3.5.21
-	go.etcd.io/etcd/server/v3 v3.5.21
+	go.etcd.io/etcd/api/v3 latest
+	go.etcd.io/etcd/client/pkg/v3 latest
+	go.etcd.io/etcd/client/v3 latest
+	go.etcd.io/etcd/server/v3 latest
 	go.uber.org/zap v1.27.0
 	k8s.io/api v0.33.0
 	k8s.io/apimachinery v0.33.0
@@ -84,10 +84,10 @@ require (
 	github.com/tmc/grpc-websocket-proxy v0.0.0-20220101234140-673ab2c3ae75 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
 	github.com/xiang90/probing v0.0.0-20221125231312-a49e3df8f510 // indirect
-	go.etcd.io/bbolt v1.3.11 // indirect
-	go.etcd.io/etcd/client/v2 v2.305.21 // indirect
-	go.etcd.io/etcd/pkg/v3 v3.5.21 // indirect
-	go.etcd.io/etcd/raft/v3 v3.5.21 // indirect
+	go.etcd.io/bbolt latest // indirect
+	go.etcd.io/etcd/client/v2 latest // indirect
+	go.etcd.io/etcd/pkg/v3 latest // indirect
+	go.etcd.io/etcd/raft/v3 latest // indirect
 	go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc v0.53.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.53.0 // indirect
 	go.opentelemetry.io/otel v1.28.0 // indirect
