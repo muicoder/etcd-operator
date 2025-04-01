@@ -6,13 +6,12 @@ kind: NetworkPolicy
 metadata:
   labels:
     app.kubernetes.io/name: etcd-operator
-    app.kubernetes.io/managed-by: kustomize
   name: allow-metrics-traffic
   namespace: system
 spec:
   podSelector:
     matchLabels:
-      control-plane: controller-manager
+      control-plane: operator
   policyTypes:
     - Ingress
   ingress:
