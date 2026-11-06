@@ -82,7 +82,7 @@ func main() {
 			"resolvable via the pod's DNS search path. "+
 			"Set this to the kubelet's --cluster-domain value to use the full FQDN form <pod>.<svc>.<ns>.svc.<domain>.")
 	opts := zap.Options{
-		Development: true,
+		Development: false,
 	}
 	opts.BindFlags(flag.CommandLine)
 	flag.Parse()
